@@ -1,5 +1,6 @@
-from TouchUI import Ui_MainWindow
 from PyQt5 import QtWidgets
+from TouchUI import Ui_MainWindow
+
 
 class MyQtApp(Ui_MainWindow, QtWidgets.QMainWindow):
     def __init__(self):
