@@ -13,7 +13,7 @@ setup(
         ],
     },
     package_data={
-        'UI': ['*.ui', '*.qrc'],
+        'UI': ['*.ui', '*.qrc', '*.py'],  # Include resources_rc.py
     },
     include_package_data=True,
     zip_safe=False,
