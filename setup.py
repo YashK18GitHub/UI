@@ -13,7 +13,7 @@ setup(
         ],
     },
     package_data={
-        'UI': ['*.ui', '*.qrc', '.idea/test.py'],  # Include the .idea/test.py file
+        'UI': ['*.ui', '*.qrc'],
     },
     include_package_data=True,
     zip_safe=False,
