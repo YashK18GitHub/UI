@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='UI',  # This is the name under which your package will be installed
+    name='UI',
     version='0.1',
     packages=find_packages(),
     install_requires=[
@@ -13,7 +13,7 @@ setup(
         ],
     },
     package_data={
-        'UI': ['resources_rc.py'],
+        'UI': ['*.ui', '*.qrc'],
     },
     include_package_data=True,
     zip_safe=False,
